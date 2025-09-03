@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario completo</h1>
+    <hr>
+    <form action="/enviar.dados" method="post">
+        <fieldset>
+            <legend>informações pessoais</legend>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome"
+            placeholder="Digite seu Nome" required ><br>
+
+            <label for="Email">Email:</label>
+            <input type="text" id="email" name="email"
+            placeholder="seu_email@exemplo.com" required><br>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required><br>
+            
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" min="16" name="idade" required><br>
+            
+            <label for="Data de Nascimento">Data de Nasciment:</label>
+            <input type="date" id="data" name="data">
+        
+        </fieldset>
+        <fieldset>
+           <legend>Outras informações</legend>
+        <details>
+        </fieldset>
+        <summary>Oque é um Formulario</summary>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, nihil.</p>
+        </details><br>
+        <label for="Hora Cadastro">Horario preferido para contato</label>
+        <input type="time" id="hora-cadastro" name="hora-cadastro">
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+
+
+</body>
+</html>
