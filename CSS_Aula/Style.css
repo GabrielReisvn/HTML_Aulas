@@ -1,0 +1,61 @@
+body {
+    background-color:beige;
+    text-align: center;
+    
+    
+}
+h1 {
+           /* --- RGB --- */
+    color: rgba(46, 32, 28, 0.923);
+      font-family: "Dancing Script", cursive;
+    
+    
+
+            /* ---  RGBA --- */
+    
+    /* ----- Codigo Hex ----- */
+    
+        /* color: #ff5733; */
+
+}
+
+
+
+/* seletor {
+        propiedade: valor;
+    } */
+
+
+
+/* ------- FONTES ----------- */
+h2{
+        color: rgba(46, 32, 28, 0.923);
+        
+        font-family: "Story Script", sans-serif;
+        /* font-size: 12px; */
+        
+        
+        /* tamanho padrão da fonte, 1m padrão.. 1,5em 1 e mais metade da fonte padrão */
+        /* font-size: 1.5em; */
+        
+        /* 20% maior que o padrão */
+        /* font-size: 120%; */
+        
+        
+        /* 5 % da largura ada tela, se adapta a tela */
+        font-size: 1,7vw;
+           
+}
+
+span{
+    color: firebrick;
+    font-size: 1.3em;
+    font-weight: 900;
+    
+    /*  100 = fino
+        400 = normal
+        700 = Negrito
+        900 = Supernegrito*/
+
+    
+}
