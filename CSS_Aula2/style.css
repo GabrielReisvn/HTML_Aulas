@@ -1,0 +1,90 @@
+h1{
+    color:rgb(4, 104, 185);
+}
+
+#ptop1 {
+    color: yellowgreen;
+}
+
+.tituloSite{
+    color:magenta;
+    font-size: 30px;
+}
+
+.box {
+
+    
+    position:relative;
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    border: 2px solid black;
+    margin-left: 90px;
+    padding: 20px;
+    top: 20px;
+    left: 250px;
+    
+}
+
+.box2{
+
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(179, 241, 245);
+    border: 2px solid black;
+    margin: 2px;
+
+}
+.box3{
+
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 245, 179);
+    border: 200px solid black;
+    margin: 20px;
+    padding-top: 30%;
+
+}
+.box4{
+
+    width: 104px;
+    height: 140px;
+    background-color: rgb(245, 179, 242);
+    border: 2px solid black;
+    margin: 300px;
+    padding: 2px;
+
+}
+.box5{
+
+    width: 220px;
+    height: 20px;
+    background-color: rgb(245, 244, 179);
+    border: 2px solid rgb(4, 3, 54);
+    margin-left: 1000px;
+    
+
+}
+
+.block{
+    display: block;
+    background: aqua;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+
+.inline{
+    display: inline;
+    background-color: blueviolet;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.inline-block{
+    display: inline-block;
+    background-color: rgb(110, 226, 43);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+

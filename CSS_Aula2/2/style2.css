@@ -1,0 +1,36 @@
+.box {
+    
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: wheat;
+    border: 2px solid black;
+    margin-left: 10px;
+    padding: 5px;
+    top: 200px;
+    left: 500px;
+
+}
+
+.box2 {
+    
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(236, 19, 84);
+    border: 2px solid black;
+    margin: 2px; 
+    left: 200px;
+    top: 20px; 
+        
+}
+
+.box3 {
+
+    width: 40px;
+    height: 40px;
+    background-color: rgb(12, 236, 180);
+    border: 2px solid black;
+    margin: 2px;
+        
+}
